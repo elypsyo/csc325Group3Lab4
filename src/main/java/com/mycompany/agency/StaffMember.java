@@ -3,7 +3,7 @@ package com.mycompany.agency;
 
 
 // TODO 1: Make this class work and public
- class StaffMember
+ public abstract class StaffMember
 {
     protected String name;
     protected String address;
@@ -20,11 +20,36 @@ package com.mycompany.agency;
         phone = ePhone;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
     //-----------------------------------------------------------------
     // TODO 2: Returns a string including the basic employee information.
     //-----------------------------------------------------------------
     public String toString()
     {
+        return ("name"+name+"Address"+address+"phone"+phone);
 
     }
 

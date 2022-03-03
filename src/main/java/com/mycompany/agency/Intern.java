@@ -18,6 +18,7 @@ public class Intern extends StaffMember
     //-----------------------------------------------------------------
     // TODO 3:  Returns a zero pay value for this intern.
     //-----------------------------------------------------------------
+    @Override
     public double pay()
     {
       return 0;

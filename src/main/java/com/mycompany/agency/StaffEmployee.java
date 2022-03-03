@@ -25,6 +25,7 @@ public class StaffEmployee extends StaffMember
     // TODO 3: complete the implementation of toString to return information 
     //          about a staff employee as a string.
     //-----------------------------------------------------------------
+    @Override
     public String toString(
     {
         super.toString();
